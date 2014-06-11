@@ -1,0 +1,1 @@
+This is a fun map of Baltimore's arrest data using socrata, if successful more cities to come!

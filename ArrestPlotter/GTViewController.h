@@ -10,5 +10,6 @@
 #import <MapKit/MapKit.h>
 @interface GTViewController : UIViewController
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+- (IBAction)refreshTapped:(id)sender;
 
 @end

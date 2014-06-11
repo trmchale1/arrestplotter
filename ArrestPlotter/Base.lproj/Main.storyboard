@@ -20,7 +20,11 @@
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Refresh" id="qcS-Vg-tD2"/>
+                                    <barButtonItem title="Refresh" id="qcS-Vg-tD2">
+                                        <connections>
+                                            <action selector="refreshTapped:" destination="vXZ-lx-hvc" id="whO-vW-3Mp"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RW1-Ot-2vu">

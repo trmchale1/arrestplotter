@@ -36,6 +36,7 @@
 		5611FFF31946AE6700343B37 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5611FFF21946AE6700343B37 /* SystemConfiguration.framework */; };
 		5611FFF51946AE7300343B37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5611FFF41946AE7300343B37 /* MobileCoreServices.framework */; };
 		5611FFF71946AEAB00343B37 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5611FFF61946AEAB00343B37 /* libz.dylib */; };
+		567397131948286C00E4C209 /* command.json in Resources */ = {isa = PBXBuildFile; fileRef = 567397121948286C00E4C209 /* command.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		5611FFF21946AE6700343B37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5611FFF41946AE7300343B37 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5611FFF61946AEAB00343B37 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		567397121948286C00E4C209 /* command.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = command.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		5611FF9B19469EF300343B37 /* ArrestPlotter */ = {
 			isa = PBXGroup;
 			children = (
+				567397121948286C00E4C209 /* command.json */,
 				5611FFA419469EF300343B37 /* GTAppDelegate.h */,
 				5611FFA519469EF300343B37 /* GTAppDelegate.m */,
 				5611FFA719469EF300343B37 /* Main.storyboard */,
@@ -323,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567397131948286C00E4C209 /* command.json in Resources */,
 				5611FFAE19469EF300343B37 /* Images.xcassets in Resources */,
 				5611FFA019469EF300343B37 /* InfoPlist.strings in Resources */,
 				5611FFA919469EF300343B37 /* Main.storyboard in Resources */,
@@ -561,6 +565,7 @@
 				5611FFC619469EF300343B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5611FFC719469EF300343B37 /* Build configuration list for PBXNativeTarget "ArrestPlotterTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +574,7 @@
 				5611FFC919469EF300343B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
